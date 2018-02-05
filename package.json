@@ -1,0 +1,20 @@
+{
+  "name": "mapsbot",
+  "version": "1.0.0",
+  "description": "Google Maps Bot for Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.16.0",
+    "@slack/interactive-messages": "^0.2.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "geolocator": "^2.1.1",
+    "openssl": "^1.1.0",
+    "qs": "^6.5.1"
+  }
+}
