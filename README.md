@@ -6,11 +6,11 @@ You make a call to the MapsBot for directions between two locations using the pr
 
 @MapsBot [origin] / [destination]
 
-![Input Example](TextInputExample.jpeg)
+![Input Example](TextInputExample.jpg)
 
 Then it will return you a map with the route superimposed onto it along with the duration of the trip. It will also allow you to change your mode of transportation after the fact with slack interactive message buttons.
 
-![Output Example](ExampleResult.jpeg)
+![Output Example](ExampleResult.jpg)
 
 In order to use this app you will need to be an administrator on your own slack channel.
 
