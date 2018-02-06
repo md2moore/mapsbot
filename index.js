@@ -31,7 +31,7 @@ rtm.on(RTM_EVENTS.MESSAGE, function(message) {
     console.log("Message Event Received");
     
     //If message received is already from the bot or mapsbot sents back an interactive message, don't process event. 
-    if ( (message.subtype && message.subtype === 'bot_message') || (!message.subtype && message.user === user_id) || message.subtype == 'message_changed') {
+    if ( (message.subtype && message.subtype === 'bot_message') || (!message.subtype && message.user === user_id) || message.subtype == 'message_changed' || message.text == undefined) {
         console.log("Bot Message / Existing Message Update Received");
     } else { 
         var message_text = message.text;
